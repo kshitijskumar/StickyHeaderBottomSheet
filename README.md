@@ -4,6 +4,8 @@
 A simple library to create a Bottom Sheet with a sticky header and a content recycler view.  <br>
 The bottom sheet expands on scrolling the content recyclerview, and once it is fully expanded, the header sticks on the top while the recyclerview is still scrolling.
 
+<img src="https://github.com/kshitijskumar/Sticky-Header-Bottom-Sheet/blob/main/stickyheaderdemo.gif" height=400> &nbsp;&nbsp;
+
 ## Adding dependencies: 
 if your gradle version is 7.0 or above :
 Add this to your settings.gradle (Project level):
@@ -108,6 +110,3 @@ If in some use case you don't want the bottom sheet to expand on scrolling (supp
     updateBottomSheetHeight(shouldMakeScrollable = false)
     // true to make the bottom sheet expand
 ```
-## Final result
-<img src="https://github.com/kshitijskumar/Sticky-Header-Bottom-Sheet/blob/main/stickyheaderdemo.gif" height=400> &nbsp;&nbsp;
-
