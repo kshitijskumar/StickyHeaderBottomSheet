@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Kshitij/AndroidStudioProjects/StickyHeaderBottomSheetLibrary/app/src/main/res/drawable/bg_counter_button.xml" value="0.178125" />
+        <entry key="..\:/Users/Kshitij/AndroidStudioProjects/StickyHeaderBottomSheetLibrary/app/src/main/res/drawable/bg_curved_box.xml" value="0.178125" />
         <entry key="..\:/Users/Kshitij/AndroidStudioProjects/StickyHeaderBottomSheetLibrary/app/src/main/res/layout/activity_main.xml" value="0.14791666666666667" />
-        <entry key="..\:/Users/Kshitij/AndroidStudioProjects/StickyHeaderBottomSheetLibrary/app/src/main/res/layout/fragment_feature_bottom_sheet.xml" value="0.16197916666666667" />
-        <entry key="..\:/Users/Kshitij/AndroidStudioProjects/StickyHeaderBottomSheetLibrary/app/src/main/res/layout/layout_feature_item.xml" value="0.16197916666666667" />
+        <entry key="..\:/Users/Kshitij/AndroidStudioProjects/StickyHeaderBottomSheetLibrary/app/src/main/res/layout/fragment_feature_bottom_sheet.xml" value="0.24339360222531292" />
+        <entry key="..\:/Users/Kshitij/AndroidStudioProjects/StickyHeaderBottomSheetLibrary/app/src/main/res/layout/layout_feature_item.xml" value="0.3704600484261501" />
         <entry key="..\:/Users/Kshitij/AndroidStudioProjects/StickyHeaderBottomSheetLibrary/stickyheaderbottomsheet/src/main/res/layout/fragment_bottom_sheet_sticky_header.xml" value="0.16197916666666667" />
         <entry key="..\:/Users/Kshitij/AndroidStudioProjects/StickyHeaderBottomSheetLibrary/stickyheaderbottomsheet/src/main/res/layout/fragment_bottom_sheet_sticky_header_binding.xml" value="0.16197916666666667" />
       </map>

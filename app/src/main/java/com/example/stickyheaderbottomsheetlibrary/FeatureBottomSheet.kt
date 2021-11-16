@@ -19,7 +19,7 @@ class FeatureBottomSheet : StickyHeaderBottomSheetDialogFragment() {
 
     private fun setupRecyclerView() {
         view?.findViewById<Button>(R.id.someBtn)?.setOnClickListener {
-            Toast.makeText(requireContext(), "some button", Toast.LENGTH_LONG).show()
+            (it as Button).text = (it.text.toString().toInt() + 1).toString()
         }
         view?.findViewById<ConstraintLayout>(R.id.header)?.setOnClickListener {
             Toast.makeText(requireContext(), "header", Toast.LENGTH_LONG).show()
@@ -32,7 +32,24 @@ class FeatureBottomSheet : StickyHeaderBottomSheetDialogFragment() {
             it.adapter = featureAdapter
         }
 
-        featureAdapter.submitList(listOf("Item 1", "Item 2", "Item 3", "Item 4", "Item 5", "Item 6", "Item 7", "Item 8", "Item 9", "Item 11", "Item 12", "Item 13", "Item 14", "Item 15", "Item 16", "Item 17", "Item 18", "Item 19", "Item 1", "Item 2", "Item 3", "Item 4", "Item 5", "Item 6", "Item 7", "Item 8", "Item 9"))
+        featureAdapter.submitList(listOf(
+            "One thing, I don't know why",
+            "It doesn't even matter how hard you try",
+            "Keep that in mind, I designed this rhyme",
+            "To remind myself of a time when I tried so hard",
+            "In spite of the way you were mockin' me",
+            "Actin' like I was part of your property",
+            "Remembering all the times you fought with me",
+            "I'm surprised it got so far",
+            "Things aren't the way they were before",
+            "You wouldn't even recognize me anymore",
+            "Not that you knew me back then",
+            "But it all comes back to me in the end",
+            "You kept everything inside",
+            "And even though I tried, it all fell apart",
+            "What it meant to me will eventually",
+            "Be a memory of a time when I"
+        ))
 //        featureAdapter.submitList(listOf("Item 1", "Item 2"))
 //        updateBottomSheetHeight(false)
     }

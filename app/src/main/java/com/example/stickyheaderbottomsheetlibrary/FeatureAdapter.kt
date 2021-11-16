@@ -11,9 +11,6 @@ import androidx.recyclerview.widget.RecyclerView
 
 class FeatureAdapter : ListAdapter<String, FeatureAdapter.FeatureViewHolder>(diffUtil) {
 
-    private val colorsList = listOf<Int>(R.color.teal_200, R.color.teal_700, R.color.purple_200, R.color.purple_500)
-
-
     companion object {
         val diffUtil = object : DiffUtil.ItemCallback<String>() {
             override fun areItemsTheSame(oldItem: String, newItem: String): Boolean {
@@ -38,11 +35,5 @@ class FeatureAdapter : ListAdapter<String, FeatureAdapter.FeatureViewHolder>(dif
     class FeatureViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         private val colorsList = listOf<Int>(R.color.teal_200, R.color.teal_700, android.R.color.holo_blue_light, R.color.purple_500)
         val textview by lazy { view.findViewById<TextView>(R.id.tvName) }
-
-        init {
-            val randomColor = colorsList.random()
-            Log.d("RandomColor", "clr: $randomColor")
-            view.setBackgroundColor(randomColor)
-        }
     }
 }
